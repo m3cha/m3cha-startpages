@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+html{
+	min-height: 100vh;
+}
+
+body{
+	font-family: 'Merriweather', serif;
+	background-image: url("../bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: white;
+	background-attachment: fixed;
+	padding: 0;
+	margin:  0;
+	border: 0;
+	min-height: 100vh;
+}
+a{
+	color: rgb(220,220,220);
+	text-decoration: none;
+}
+.left-bar{
+	float:left;
+	padding: 0;
+	margin:  0;
+	border: 0;
+	height: 100vh;
+	width: 200px;
+	background-color: rgba(0,0,0,.45);
+}
+.left-link{
+	padding: 20px 20px 0px 20px;
+	width:160px;
+	color: rgb(220,220,220);
+	cursor: pointer;
+}
+.right-junk{
+	padding:0;
+	margin:0;
+	border:0;
+	padding-left: 200px;
+	height:100vh;
+	width:100vw;
+	box-sizing: border-box;
+}
+.vertical-junk{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width:539px;
+	margin:0 auto;
+	height:100vh;
+}
+.center-junk{
+	width: 539px;
+	height: 300px;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+.center-junk table{
+	margin: 0;
+	padding: 0 5px;
+	border: 0;
+	display: none;
+	background-color: rgba(0,0,0,.45);
+	float:left;
+	border-collapse: collapse;
+}
+.center-junk table tr{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.center-junk table tr td{
+	width:120px;
+	height:75px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: center;
+	text-align: center;
+	background-color: rgba(0,0,0,0);
+}
+.center-junk table tr td:hover{
+	background-color: rgba(0,0,0,1);
+}
+.center-junk table tr td a{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	font-size: 18px;
+}
+#imgswap{
+	float: right;
+	height:300px;
+	width:169px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
