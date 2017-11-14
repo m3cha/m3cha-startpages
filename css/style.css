@@ -44,11 +44,13 @@ body{
 h1{
 	font-family: The-Queen;
 	margin:0;
+	line-height: 1em;
 }
 h4{
 	margin:0;
 	padding-left: 1em;
 	font-family: The-Queen;
+	line-height: 1em;
 }
 .stpg{
 	box-sizing: border-box;
@@ -69,6 +71,10 @@ h4{
 }
 .stpg a.repo{
 	font-size: .8em;
+}
+.stpg a.img{
+	padding: 0;
+	padding-left: 0;
 }
 .stpg p{
 	padding-left: 5px;
