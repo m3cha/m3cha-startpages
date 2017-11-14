@@ -5,7 +5,7 @@ html{
 
 body{
 	font-family: 'Merriweather', serif;
-	background-image: url("../bg.png");
+	background-image: url("../img/bg.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -30,7 +30,7 @@ a{
 	background-color: rgba(0,0,0,.45);
 }
 .left-link{
-	padding: 20px 20px 0px 20px;
+	padding: 20px 20px 20px 20px;
 	width:160px;
 	color: rgb(220,220,220);
 	cursor: pointer;

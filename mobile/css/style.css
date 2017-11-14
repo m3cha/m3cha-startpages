@@ -1,0 +1,181 @@
+html{
+	min-height: 100vh;
+}
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #444444;
+	background-attachment: fixed;
+	padding: 0;
+	margin:  0;
+	border: 0;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.clean{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.holder{
+	width: 100vw;
+}
+.accordionItem{
+	display: block;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 100%;
+	text-align: center;
+}
+.accordionContentHolder{
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 100%;
+}
+.accordionContent{
+	display: block;
+	height: auto;
+	overflow: hidden;
+	margin: 0;
+	margin-top: -100%;
+	transition: margin-top .5s;
+	transition-delay: 0s;
+}
+.show .accordionContentHolder .accordionContent{
+	margin-top: 0;
+}
+.accordionTitle{
+	display: block;
+	padding: 1em 0;
+	margin: 0;
+	border: 0;
+	font-size: 1.4em;
+}
+.accordionTitle:hover{
+	cursor: pointer;
+}
+.accordionContent a{
+	display: block;
+	padding: .8em 0;
+	margin: 0;
+	border: 0;
+	width: 100%;
+	font-size: 1.2em;
+	background-color:;
+	color: black;
+	text-decoration: none;
+}
+#red .accordionTitle{
+	background-color: #ffb2b2;
+}
+#red .accordionContent a:nth-child(odd){
+	background-color: #ffe5e5;
+}
+#red .accordionContent a:nth-child(even){
+	background-color: #ffcccc;
+}
+#ora .accordionTitle{
+	background-color: #ffe4b2;
+}
+#ora .accordionContent a:nth-child(even){
+	background-color: #ffedcc;
+}
+#ora .accordionContent a:nth-child(odd){
+	background-color: #fff6e5;
+}
+#yel .accordionTitle{
+	background-color: #ffffb2;
+}
+#yel .accordionContent a:nth-child(even){
+	background-color: #ffffcc;
+}
+#yel .accordionContent a:nth-child(odd){
+	background-color: #ffffe5;
+}
+#gry .accordionTitle{
+	background-color: #e4ffb2;
+}
+#gry .accordionContent a:nth-child(even){
+	background-color: #edffcc;
+}
+#gry .accordionContent a:nth-child(odd){
+	background-color: #f6ffe5;
+}
+#gre .accordionTitle{
+	background-color: #b2ffb2;
+}
+#gre .accordionContent a:nth-child(even){
+	background-color: #ccffcc;
+}
+#gre .accordionContent a:nth-child(odd){
+	background-color: #e5ffe5;
+}
+#grc .accordionTitle{
+	background-color: #b2ffe4;
+}
+#grc .accordionContent a:nth-child(even){
+	background-color: #ccffed;
+}
+#grc .accordionContent a:nth-child(odd){
+	background-color: #e5fff6;
+}
+#cya .accordionTitle{
+	background-color: #b2ffff;
+}
+#cya .accordionContent a:nth-child(even){
+	background-color: #ccffff;
+}
+#cya .accordionContent a:nth-child(odd){
+	background-color: #e5ffff;
+}
+#cyb .accordionTitle{
+	background-color: #b2e4ff;
+}
+#cyb .accordionContent a:nth-child(even){
+	background-color: #ccedff;
+}
+#cyb .accordionContent a:nth-child(odd){
+	background-color: #e5f6ff;
+}
+#blu .accordionTitle{
+	background-color: #b2b2ff;
+}
+#blu .accordionContent a:nth-child(even){
+	background-color: #ccccff;
+}
+#blu .accordionContent a:nth-child(odd){
+	background-color: #e5e5ff;
+}
+#blm .accordionTitle{
+	background-color: #e4b2ff;
+}
+#blm .accordionContent a:nth-child(even){
+	background-color: #edccff;
+}
+#blm .accordionContent a:nth-child(odd){
+	background-color: #f6e5ff;
+}
+#mag .accordionTitle{
+	background-color: #ffb2ff;
+}
+#mag .accordionContent a:nth-child(even){
+	background-color: #ffccff;
+}
+#mag .accordionContent a:nth-child(odd){
+	background-color: #ffe5ff;
+}
+#mar .accordionTitle{
+	background-color: #ffb2e4;
+}
+#mar .accordionContent a:nth-child(even){
+	background-color: #ffcced;
+}
+#mar .accordionContent a:nth-child(odd){
+	background-color: #ffe5f6;
+}

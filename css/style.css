@@ -1,0 +1,76 @@
+@font-face{
+	font-family: Gotham-Light;
+	src: url("../font/Gotham-Light.otf");
+}
+@font-face{
+	font-family: Gotham-Light-I;
+	src: url("../font/Gotham-LightItalic.otf");
+}
+@font-face{
+	font-family: Gotham-Medium;
+	src: url("../font/Gotham-Medium.otf");
+}
+@font-face{
+	font-family: The-Queen;
+	src: url("../font/TheQueen-Regular.ttf");
+}
+body{
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: black;
+	color: #eee;
+	background-attachment: fixed;
+	padding: 0;
+	margin:  0;
+	border: 0;
+	min-height: 100vh;
+	font-family: Gotham-Light;
+}
+.content{
+	min-height:100vh;
+	width:50%;
+	min-width:300px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,.3);
+	box-sizing: border-box;
+	padding: 10px
+}
+.header{
+	box-sizing: border-box;
+	padding: 5px 0 15px 0;
+}
+h1{
+	font-family: The-Queen;
+	margin:0;
+}
+h4{
+	margin:0;
+	padding-left: 1em;
+	font-family: The-Queen;
+}
+.stpg{
+	box-sizing: border-box;
+	padding: 0;
+	background-color: rgba(0,0,0,0.3);
+}
+.stpg img{
+	width: 100%;
+	height: auto;
+}
+.stpg a, .stpg a:hover, .stpg a:visited{
+	color: inherit;
+	font-size: 1.2em;
+	display: block;
+	box-sizing: border-box;
+	font-family: Gotham-Medium;
+	padding-left: 5px;
+}
+.stpg a.repo{
+	font-size: .8em;
+}
+.stpg p{
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
