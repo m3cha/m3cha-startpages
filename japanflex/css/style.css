@@ -1,0 +1,126 @@
+@font-face{
+	font-family: ntfe;
+	src: url('../font/ntfe.otf');
+}
+@font-face{
+	font-family: anke;
+	src: url('../font/anke.otf');
+}
+
+html{
+
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: white;
+	background-attachment: fixed;
+}
+
+.main{
+	width:75%;
+	height:50%;
+	display: flex;
+	grid-template-columns: 100%;
+}
+.main div{
+	flex-grow: 1;
+	height: 100%;
+	background-color: #f00;
+	margin: 5px;
+	transition: flex-grow 1s;
+	overflow: hidden;
+	/*border-style: solid;
+	border-width: 2px;
+	border-color: black;*/
+	box-shadow: 4px 4px #000;
+}
+
+.main div:hover{
+	flex-grow: 2;
+}
+
+.main div div{
+	width: 1px;
+	overflow: visible;
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+.main div div h1{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	min-width: none;
+	font-family: ntfe;
+	font-size: 1.5em;
+	color: white;
+	text-shadow: 4px 4px #000;
+}
+
+.main div div div{
+	margin-top: -10px;
+	transition: margin 1s;
+}
+
+.main div:hover div div{
+	margin-top: 0px;
+}
+
+.main div div div span{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.main div div div span a{
+	font-family: anke;
+	text-shadow: 2px 2px rgba(0,0,0,0);
+	color: rgba(0,0,0,0);
+	font-size: 1.25em;
+	text-decoration: none;
+	transition: color 1s, text-shadow 1s;
+}
+.main div:hover div div span a{
+	text-shadow: 2px 2px rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+}
+
+
+.content1{
+	background-image: url("../img/1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.content2{
+	background-image: url("../img/2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.content3{
+	background-image: url("../img/3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.content4{
+	background-image: url("../img/4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
